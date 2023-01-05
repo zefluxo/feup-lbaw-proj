@@ -58,6 +58,8 @@ Used for smooth and responsive carousels. Implemented in multiple pages througho
 
 Whilst not a library, we felt that is important to mention that the code that makes us able to have BBCode on the artist pages and translate it into valid HTML code was not developed by us as it is a moderately complex piece of JavaScript code.
 
+## Video of the project available [here](https://youtu.be/8hV3KfyZhCw)
+
 ***
 GROUP 22123, 03/01/2023
 
