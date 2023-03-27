@@ -1238,6 +1238,7 @@ INSERT INTO artist (name, description) VALUES ('Portishead', 'Portishead are an 
 INSERT INTO artist (name, description) VALUES ('Billie Eilish', 'Singer-songwriter born on December 18, 2001 in Los Angeles, California, USA. Sister of [a6016928].
 First hit single "Ocean Eyes" released at 14 years old, and first album at 17.
 ');
+INSERT INTO artist (name, description) VALUES ('Death Grips', 'Experimental hip hop group from Sacramento, California formed in late 2010 and consisting of vocalist Stefan Burnett (aka MC Ride) and production team Zach Hill and Andy Morin. Their live performance setup consists of Burnett on vocals, Morin on keyboards and Hill on drums. They usually operate under their own label, Third Worlds');
 
 INSERT INTO product (artist_id, name, description, stock, price, format, year, rating) VALUES (1, 'Hellfire', 'Hellfire
 Sugar / Tzu
@@ -4181,6 +4182,36 @@ Black Mountain Side
 Communication Breakdown
 I Can''t Quit You Baby
 How Many More Times', 4, 1376, 'Vinyl', 2014, NULL);
+INSERT INTO product (artist_id, name, description, stock, price, format, year, rating) VALUES (114, 'Bottomless Pit', 'Giving Bad People Good Ideas
+Hot Head
+Spikes
+Warping
+Eh
+Bubbles Buried In This Jungle
+Trash
+Houdini
+BB Poison
+Three Bedrooms in a Good Neighborhood
+Ring A Bell
+80808
+Bottomless Pit', 4, 5000, 'Vinyl', 2016, NULL);
+INSERT INTO product (artist_id, name, description, stock, price, format, year, rating) VALUES (114, 'The Powers That B', 'Up My Sleeves
+Billy Not Really
+Black Quarterback
+Say Hey Kid
+Have A Sad Cum BB
+F**k Me Out
+Voila
+Big Dipper
+I Break Mirrors With My Face In The United States
+Inanimate Sensation
+Turned Off
+Pss Pss
+The Powers That B
+Beyond Alive
+Centuries of Damn
+On GP
+Death Grips 2.0', 4, 4000, 'Vinyl', 2014, NULL);
 
 INSERT INTO product_genre (product_id, genre_id) VALUES (1, 1);
 INSERT INTO product_genre (product_id, genre_id) VALUES (1, 2);
